@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/aus" >
+    
+    <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Computer Algebra System"
+                android:textSize="25sp"
+                android:textColor="#000000" 
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                >
+            </TextView>
+    <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dr Motahar Reza"
+                android:textSize="20sp"
+                android:textColor="#000000" 
+                android:layout_gravity="center"
+                android:layout_marginTop="210dp"
+                >
+              </TextView>  
+      <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(Advisor)"
+                android:textSize="18sp"
+                android:textColor="#191975" 
+                android:layout_gravity="center"
+                >
+            </TextView>
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shanaul Haque"
+                android:textSize="20sp"
+                android:textColor="#000000" 
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                >
+              </TextView>  
+      <TextView
+                android:id="@+id/tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(Developer)"
+                android:textSize="18sp"
+                android:textColor="#191975" 
+                android:layout_gravity="center"
+                >
+            </TextView>
+
+      <ImageView
+          android:id="@+id/imageView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/logo"
+          android:layout_gravity="center" 
+          android:layout_marginTop="25dp"/>
+    
+</LinearLayout>

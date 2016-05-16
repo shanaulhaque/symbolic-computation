@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SymbolicComputation</string>
+    <string name="action_settings">Settings</string>
+    <string name="help">
+    Sample Equation&lt;br&gt;
+    	deriv[x](cos(x)*sin(x))+permu[5,2]+4!&lt;br&gt;&lt;br&gt;
+    Note: Input should not contain any space or enter&lt;br&gt;&lt;br&gt;
+
+    Functions and their command:&lt;br&gt;&lt;br&gt;
+
+        Combination:
+            	combi[n_value,r_value]
+            	EX: combi[10,5]&lt;br&gt;&lt;br&gt;
+        Cosine:
+            	cos(value)
+            	EX: cos(30)&lt;br&gt;&lt;br&gt;
+        Cosec:
+            	cosec(value)
+            	EX: cosec(30)&lt;br&gt;&lt;br&gt;
+        Cosech:
+            	cosech(value)
+            	EX: cosech(30)&lt;br&gt;&lt;br&gt;
+        Cosec Inverse:
+            	icosec(value)
+            	EX: icosec(0.5)&lt;br&gt;&lt;br&gt;
+        Cosh:
+            	cosh(value)
+            	EX: cosh(30)&lt;br&gt;&lt;br&gt;
+        Cosine Inverse:
+            	icos(value)
+            	EX: icos(0.5)&lt;br&gt;&lt;br&gt;
+        Cot:
+            	cot(value)
+            	EX: cot(30)&lt;br&gt;&lt;br&gt;
+        Coth:
+            	coth(value)
+            	EX: coth(30)&lt;br&gt;&lt;br&gt;
+        Cot Inverse:
+            	icot(value)
+            	EX: icot(30)&lt;br&gt;&lt;br&gt;
+        Definite Integral: 
+            	defint[upper_limit,lower_limit](equation)dwrt
+            	EX: defint[10,0](x^2)dx&lt;br&gt;&lt;br&gt;
+        Differentiation: 
+            	deriv[wrt](equation)
+            	EX: deriv[x](x*cos(x))&lt;br&gt;&lt;br&gt;
+        Factorial:
+            	value!
+            	EX: 5!&lt;br&gt;&lt;br&gt;
+        Indefinite Integral:
+            	indefint(equation)dwrt
+            	EX: indefint(x+sin(x))dx&lt;br&gt;&lt;br&gt;
+        Ln:
+            	ln(value)
+            	EX: ln(100)&lt;br&gt;&lt;br&gt;
+        Log:
+            	log1(value)
+            	EX: log1(20)&lt;br&gt;&lt;br&gt;
+        Log with base:
+            	logb[base_value](value)
+            	EX: logb[2](8)&lt;br&gt;&lt;br&gt;
+        Nth Root:
+            	nroot[n_value](value)
+            	EX: nroot[3](8)&lt;br&gt;&lt;br&gt;
+        Permutation:
+            	permu[n_value,r_value]
+            	EX: permu[10,5]&lt;br&gt;&lt;br&gt;
+        Product Series:
+            	prod[variable,lower_limit,upper_limit](equation)
+            	EX: prod[i,1,5](i*10)&lt;br&gt;&lt;br&gt;
+        Sec:
+            	sec(value)
+            	EX: sec(30)&lt;br&gt;&lt;br&gt;
+        Sech:
+            	sech(value)
+            	EX: sech(30)&lt;br&gt;&lt;br&gt;
+        Sec Inverse:
+            	isec(value)
+            	EX: isec(0.5)&lt;br&gt;&lt;br&gt;
+        Sine:
+            	sin(value)
+            	EX: sin(30)&lt;br&gt;&lt;br&gt;
+        Sinh:
+            	sinh(value)
+            	EX: sinh(30)&lt;br&gt;&lt;br&gt;
+        Sine Inverse:
+            	isin(value)
+            	EX: isin(0.5)&lt;br&gt;&lt;br&gt;
+        Square Root:
+            	sroot(valur)
+            	EX: sroot(4)&lt;br&gt;&lt;br&gt;
+        Sum of Series:
+            	sum[variable,lower_limit,upper_limit](equation)
+            	EX: sum[i,1,5](i*10)&lt;br&gt;&lt;br&gt;
+        Tan:
+            	tan(value)
+            	EX: tan(30)&lt;br&gt;&lt;br&gt;
+        Tanh:
+            	tanh(value)
+            	EX: tanh(30)&lt;br&gt;&lt;br&gt;
+        Tan Inverse:
+            	itan(value)
+            	EX: itan(0.5)&lt;br&gt;&lt;br&gt;
+
+
+    </string>
+    
+
+</resources>
